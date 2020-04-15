@@ -1,0 +1,573 @@
+[01-Nov-2018 15:09:49 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/m51jbdlbnuj4/public_html/frontend/views/profile/index.php on line 149
+[01-Nov-2018 15:09:51 UTC] PHP Fatal error:  Cannot use empty array elements in arrays in /home/m51jbdlbnuj4/public_html/frontend/views/profile/index.php on line 149
+[02-Nov-2018 18:09:52 UTC] PHP Notice:  Undefined offset: 1 in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/log/Target.php on line 364
+[06-Nov-2018 07:57:08 UTC] PHP Notice:  Undefined offset: 1 in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/log/Target.php on line 364
+[10-Nov-2018 09:13:27 UTC] PHP Notice:  Undefined offset: 1 in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/log/Target.php on line 364
+[15-Nov-2018 11:49:37 UTC] PHP Notice:  Undefined offset: 1 in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/log/Target.php on line 364
+[15-Nov-2018 12:27:08 UTC] An Error occurred while handling another error:
+Error: Class 'ActiveForm' not found in /home/m51jbdlbnuj4/public_html/frontend/views/layouts/main.php:47
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/View.php(332): require()
+#1 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/m51jbdlbn...', Array)
+#2 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/home/m51jbdlbn...', Array, Object(frontend\controllers\SiteController))
+#3 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#4 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(128): yii\base\Controller->render('error', Array)
+#5 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(107): yii\web\ErrorAction->renderHtmlResponse()
+#6 [internal function]: yii\web\ErrorAction->run()
+#7 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#8 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\Action->runWithParams(Array)
+#9 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#10 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#11 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#13 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "lib/slick/slick.min.js". in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('lib/slick/slick...', Array)
+#1 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_csrf-frontend=c03873099869b40a8936dbd993134acf385dc3fe4eb426d48e75b7e622223075a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ZFSVPgKtaDj7TIFxRqYRq-UPhSNrmNsS%22%3B%7D; _tccl_visitor=205245f3-1175-4743-b8e6-0df1da3dbfe7; _csrf-manage=fc85e88d8d9c6573325631f56c69f3e2d5d750ee5f6b030c37cf09c4a220543da%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_csrf-manage%22%3Bi%3A1%3Bs%3A32%3A%22DvFuTdfK9rjwobCzIc19Zku7XKkHaUaS%22%3B%7D; _tccl_visit=20528cb2-1642-4afd-9747-00caaac89755; advanced-manage=10759be3e83c4456b3312cc0fd91fdb9; advanced-frontend=9a625f9d41ccafa856364c57e1426858; _identity-frontend=8c915ed2fd565aba8274210be25b3129029b6c6cc5392c7d90164324f8b03aa6a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B122%2C%22LWJCeO9XGWL6MttYucEd2sGHlfdaf5oH%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'www.jijigram.com',
+    'HTTP_REFERER' => 'http://www.jijigram.com/profile/my-channels',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+    'REDIRECT_UNIQUE_ID' => 'W@1mHBWJRxumIpSV1sVD5gAAAgA',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W@1mHBWJRxumIpSV1sVD5gAAAgA',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.jijigram.com',
+    'SERVER_ADDR' => '107.180.41.145',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '116.193.133.194',
+    'DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'SERVER_ADMIN' => 'webmaster@jijigram.com',
+    'SCRIPT_FILENAME' => '/home/m51jbdlbnuj4/public_html/index.php',
+    'REMOTE_PORT' => '60464',
+    'REDIRECT_URL' => '/lib/slick/slick.min.js',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/lib/slick/slick.min.js',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1542284828.00879001617431640625,
+    'REQUEST_TIME' => 1542284828,
+]
+[15-Nov-2018 12:27:12 UTC] An Error occurred while handling another error:
+Error: Class 'ActiveForm' not found in /home/m51jbdlbnuj4/public_html/frontend/views/layouts/main.php:47
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/View.php(332): require()
+#1 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/View.php(250): yii\base\View->renderPhpFile('/home/m51jbdlbn...', Array)
+#2 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Controller.php(399): yii\base\View->renderFile('/home/m51jbdlbn...', Array, Object(frontend\controllers\SiteController))
+#3 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Controller.php(385): yii\base\Controller->renderContent('<div class="sit...')
+#4 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(128): yii\base\Controller->render('error', Array)
+#5 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/ErrorAction.php(107): yii\web\ErrorAction->renderHtmlResponse()
+#6 [internal function]: yii\web\ErrorAction->run()
+#7 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Action.php(94): call_user_func_array(Array, Array)
+#8 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\Action->runWithParams(Array)
+#9 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('error', Array)
+#10 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#11 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#12 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#13 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "lib/slick/slick.min.js". in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('lib/slick/slick...', Array)
+#1 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_csrf-frontend=c03873099869b40a8936dbd993134acf385dc3fe4eb426d48e75b7e622223075a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22ZFSVPgKtaDj7TIFxRqYRq-UPhSNrmNsS%22%3B%7D; _tccl_visitor=205245f3-1175-4743-b8e6-0df1da3dbfe7; _csrf-manage=fc85e88d8d9c6573325631f56c69f3e2d5d750ee5f6b030c37cf09c4a220543da%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_csrf-manage%22%3Bi%3A1%3Bs%3A32%3A%22DvFuTdfK9rjwobCzIc19Zku7XKkHaUaS%22%3B%7D; _tccl_visit=20528cb2-1642-4afd-9747-00caaac89755; advanced-manage=10759be3e83c4456b3312cc0fd91fdb9; advanced-frontend=9a625f9d41ccafa856364c57e1426858; _identity-frontend=8c915ed2fd565aba8274210be25b3129029b6c6cc5392c7d90164324f8b03aa6a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A48%3A%22%5B122%2C%22LWJCeO9XGWL6MttYucEd2sGHlfdaf5oH%22%2C2592000%5D%22%3B%7D',
+    'HTTP_HOST' => 'www.jijigram.com',
+    'HTTP_REFERER' => 'http://www.jijigram.com/profile/my-channels',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36',
+    'REDIRECT_UNIQUE_ID' => 'W@1mIH-mCOWKOkAQMCd6fAAAAMQ',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'W@1mIH-mCOWKOkAQMCd6fAAAAMQ',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.jijigram.com',
+    'SERVER_ADDR' => '107.180.41.145',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '116.193.133.194',
+    'DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'SERVER_ADMIN' => 'webmaster@jijigram.com',
+    'SCRIPT_FILENAME' => '/home/m51jbdlbnuj4/public_html/index.php',
+    'REMOTE_PORT' => '60467',
+    'REDIRECT_URL' => '/lib/slick/slick.min.js',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/lib/slick/slick.min.js',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1542284832.63819408416748046875,
+    'REQUEST_TIME' => 1542284832,
+]
+[15-Nov-2018 14:49:43 UTC] PHP Notice:  Undefined offset: 1 in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/log/Target.php on line 364
+[19-Nov-2018 13:16:42 UTC] PHP Notice:  Undefined offset: 1 in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/log/Target.php on line 364
+[20-Nov-2018 08:55:33 UTC] PHP Notice:  Undefined offset: 1 in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/log/Target.php on line 364
+[23-Nov-2018 09:51:07 UTC] PHP Fatal error:  Cannot use yii\bootstrap\ActiveForm as ActiveForm because the name is already in use in /home/m51jbdlbnuj4/public_html/frontend/views/profile/profile.php on line 11
+[28-Nov-2018 11:49:54 UTC] PHP Fatal error:  Class 'frontend\models\Model' not found in /home/m51jbdlbnuj4/public_html/frontend/models/InviteFriends.php on line 6
+[28-Nov-2018 13:58:13 UTC] PHP Notice:  Undefined offset: 1 in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/log/Target.php on line 364
+[29-Nov-2018 09:04:27 UTC] PHP Notice:  Undefined offset: 1 in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/log/Target.php on line 364
+[29-Nov-2018 18:31:52 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /home/m51jbdlbnuj4/public_html/common/config/main.php on line 25
+[29-Nov-2018 18:32:01 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /home/m51jbdlbnuj4/public_html/common/config/main.php on line 25
+[29-Nov-2018 18:32:34 UTC] PHP Parse error:  syntax error, unexpected ',', expecting ';' in /home/m51jbdlbnuj4/public_html/common/config/main.php on line 22
+[03-Dec-2018 11:01:49 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/m51jbdlbnuj4/public_html/frontend/views/site/requestPasswordResetToken.php on line 9
+[03-Dec-2018 11:02:55 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/m51jbdlbnuj4/public_html/frontend/views/site/requestPasswordResetToken.php on line 9
+[03-Dec-2018 11:02:58 UTC] PHP Fatal error:  Cannot use yii\helpers\Html as Html because the name is already in use in /home/m51jbdlbnuj4/public_html/frontend/views/site/requestPasswordResetToken.php on line 9
+[03-Dec-2018 16:19:05 UTC] PHP Notice:  Undefined offset: 1 in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/log/Target.php on line 364
+[06-Dec-2018 11:04:14 UTC] An Error occurred while handling another error:
+yii\base\UnknownClassException: Unable to find 'frontend\controllers\SiteController' in file: /home/m51jbdlbnuj4/public_html/frontend/controllers/SiteController.php. Namespace missing? in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(638): class_exists('frontend\\contro...')
+#3 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('site')
+#4 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('error')
+#5 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#6 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#7 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#8 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "lib/slick/slick.min.js". in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('lib/slick/slick...', Array)
+#1 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=205245f3-1175-4743-b8e6-0df1da3dbfe7; _csrf-manage=519b104db8df32ee0834acacdb92c59827408f57c10d85246a678eb0cf61c8bca%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_csrf-manage%22%3Bi%3A1%3Bs%3A32%3A%22RVD9Q3C5y8nrIJn8V1bqHyBTO8it5-i3%22%3B%7D; advanced-frontend=4c7573d17e4109d81e83ee9a6b3ffab1; _csrf-frontend=87ad85ae94dc164b9f75dc09a887968823e1b0180c2e0fe5839ba8f79f4bab47a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22RAJ4P-yWHMGmuX2omoP1c2dcf-yacaOL%22%3B%7D; advanced-manage=3165eba5d8682a8978169e4a543e5333; _tccl_visit=206e2c89-2967-4db3-abd7-0be6c516f14b',
+    'HTTP_HOST' => 'www.jijigram.com',
+    'HTTP_REFERER' => 'http://www.jijigram.com/site/request-password-reset',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+    'REDIRECT_UNIQUE_ID' => 'XAkCLnzEdlWzh8Twc70ycgAAAM0',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XAkCLnzEdlWzh8Twc70ycgAAAM0',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.jijigram.com',
+    'SERVER_ADDR' => '107.180.41.145',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '116.193.133.242',
+    'DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'SERVER_ADMIN' => 'webmaster@jijigram.com',
+    'SCRIPT_FILENAME' => '/home/m51jbdlbnuj4/public_html/index.php',
+    'REMOTE_PORT' => '61712',
+    'REDIRECT_URL' => '/lib/slick/slick.min.js',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/lib/slick/slick.min.js',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1544094254.326344013214111328125,
+    'REQUEST_TIME' => 1544094254,
+]
+[06-Dec-2018 11:04:14 UTC] An Error occurred while handling another error:
+yii\base\UnknownClassException: Unable to find 'frontend\controllers\SiteController' in file: /home/m51jbdlbnuj4/public_html/frontend/controllers/SiteController.php. Namespace missing? in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(638): class_exists('frontend\\contro...')
+#3 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('site')
+#4 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('error')
+#5 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#6 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#7 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#8 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/responsiveslides.min.js". in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/responsivesl...', Array)
+#1 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=205245f3-1175-4743-b8e6-0df1da3dbfe7; _csrf-manage=519b104db8df32ee0834acacdb92c59827408f57c10d85246a678eb0cf61c8bca%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_csrf-manage%22%3Bi%3A1%3Bs%3A32%3A%22RVD9Q3C5y8nrIJn8V1bqHyBTO8it5-i3%22%3B%7D; advanced-frontend=4c7573d17e4109d81e83ee9a6b3ffab1; _csrf-frontend=87ad85ae94dc164b9f75dc09a887968823e1b0180c2e0fe5839ba8f79f4bab47a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22RAJ4P-yWHMGmuX2omoP1c2dcf-yacaOL%22%3B%7D; advanced-manage=3165eba5d8682a8978169e4a543e5333; _tccl_visit=206e2c89-2967-4db3-abd7-0be6c516f14b',
+    'HTTP_HOST' => 'www.jijigram.com',
+    'HTTP_REFERER' => 'http://www.jijigram.com/site/request-password-reset',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+    'REDIRECT_UNIQUE_ID' => 'XAkCLnzEdlWzh8Twc70ycwAAANA',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XAkCLnzEdlWzh8Twc70ycwAAANA',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.jijigram.com',
+    'SERVER_ADDR' => '107.180.41.145',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '116.193.133.242',
+    'DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'SERVER_ADMIN' => 'webmaster@jijigram.com',
+    'SCRIPT_FILENAME' => '/home/m51jbdlbnuj4/public_html/index.php',
+    'REMOTE_PORT' => '61720',
+    'REDIRECT_URL' => '/js/responsiveslides.min.js',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/js/responsiveslides.min.js',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1544094254.389247894287109375,
+    'REQUEST_TIME' => 1544094254,
+]
+[06-Dec-2018 11:04:14 UTC] An Error occurred while handling another error:
+yii\base\UnknownClassException: Unable to find 'frontend\controllers\SiteController' in file: /home/m51jbdlbnuj4/public_html/frontend/controllers/SiteController.php. Namespace missing? in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(638): class_exists('frontend\\contro...')
+#3 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('site')
+#4 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('error')
+#5 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#6 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#7 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#8 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/jquery.meanmenu.js". in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/jquery.meanm...', Array)
+#1 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=205245f3-1175-4743-b8e6-0df1da3dbfe7; _csrf-manage=519b104db8df32ee0834acacdb92c59827408f57c10d85246a678eb0cf61c8bca%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_csrf-manage%22%3Bi%3A1%3Bs%3A32%3A%22RVD9Q3C5y8nrIJn8V1bqHyBTO8it5-i3%22%3B%7D; advanced-frontend=4c7573d17e4109d81e83ee9a6b3ffab1; _csrf-frontend=87ad85ae94dc164b9f75dc09a887968823e1b0180c2e0fe5839ba8f79f4bab47a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22RAJ4P-yWHMGmuX2omoP1c2dcf-yacaOL%22%3B%7D; advanced-manage=3165eba5d8682a8978169e4a543e5333; _tccl_visit=206e2c89-2967-4db3-abd7-0be6c516f14b',
+    'HTTP_HOST' => 'www.jijigram.com',
+    'HTTP_REFERER' => 'http://www.jijigram.com/site/request-password-reset',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+    'REDIRECT_UNIQUE_ID' => 'XAkCLnr53ME7VzgXpky@WgAAAE8',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XAkCLnr53ME7VzgXpky@WgAAAE8',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.jijigram.com',
+    'SERVER_ADDR' => '107.180.41.145',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '116.193.133.242',
+    'DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'SERVER_ADMIN' => 'webmaster@jijigram.com',
+    'SCRIPT_FILENAME' => '/home/m51jbdlbnuj4/public_html/index.php',
+    'REMOTE_PORT' => '61719',
+    'REDIRECT_URL' => '/js/jquery.meanmenu.js',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/js/jquery.meanmenu.js',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1544094254.3854091167449951171875,
+    'REQUEST_TIME' => 1544094254,
+]
+[06-Dec-2018 11:04:14 UTC] An Error occurred while handling another error:
+yii\base\UnknownClassException: Unable to find 'frontend\controllers\SiteController' in file: /home/m51jbdlbnuj4/public_html/frontend/controllers/SiteController.php. Namespace missing? in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(638): class_exists('frontend\\contro...')
+#3 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('site')
+#4 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('error')
+#5 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#6 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#7 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#8 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "site/images/logo2a.png". in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('site/images/log...', Array)
+#1 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=205245f3-1175-4743-b8e6-0df1da3dbfe7; _csrf-manage=519b104db8df32ee0834acacdb92c59827408f57c10d85246a678eb0cf61c8bca%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_csrf-manage%22%3Bi%3A1%3Bs%3A32%3A%22RVD9Q3C5y8nrIJn8V1bqHyBTO8it5-i3%22%3B%7D; advanced-frontend=4c7573d17e4109d81e83ee9a6b3ffab1; _csrf-frontend=87ad85ae94dc164b9f75dc09a887968823e1b0180c2e0fe5839ba8f79f4bab47a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22RAJ4P-yWHMGmuX2omoP1c2dcf-yacaOL%22%3B%7D; advanced-manage=3165eba5d8682a8978169e4a543e5333; _tccl_visit=206e2c89-2967-4db3-abd7-0be6c516f14b',
+    'HTTP_HOST' => 'www.jijigram.com',
+    'HTTP_REFERER' => 'http://www.jijigram.com/site/request-password-reset',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+    'REDIRECT_UNIQUE_ID' => 'XAkCLnQFoB-L@S3vO4UI5AAAAYY',
+    'REDIRECT_no-gzip' => '1',
+    'REDIRECT_dont-vary' => '1',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XAkCLnQFoB-L@S3vO4UI5AAAAYY',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.jijigram.com',
+    'SERVER_ADDR' => '107.180.41.145',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '116.193.133.242',
+    'DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'SERVER_ADMIN' => 'webmaster@jijigram.com',
+    'SCRIPT_FILENAME' => '/home/m51jbdlbnuj4/public_html/index.php',
+    'REMOTE_PORT' => '61718',
+    'REDIRECT_URL' => '/site/images/logo2a.png',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/site/images/logo2a.png',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1544094254.4052350521087646484375,
+    'REQUEST_TIME' => 1544094254,
+]
+[06-Dec-2018 11:04:14 UTC] An Error occurred while handling another error:
+yii\base\UnknownClassException: Unable to find 'frontend\controllers\SiteController' in file: /home/m51jbdlbnuj4/public_html/frontend/controllers/SiteController.php. Namespace missing? in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(638): class_exists('frontend\\contro...')
+#3 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('site')
+#4 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('error')
+#5 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#6 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#7 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#8 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/owl.carousel.js". in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/owl.carousel...', Array)
+#1 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=205245f3-1175-4743-b8e6-0df1da3dbfe7; _csrf-manage=519b104db8df32ee0834acacdb92c59827408f57c10d85246a678eb0cf61c8bca%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_csrf-manage%22%3Bi%3A1%3Bs%3A32%3A%22RVD9Q3C5y8nrIJn8V1bqHyBTO8it5-i3%22%3B%7D; advanced-frontend=4c7573d17e4109d81e83ee9a6b3ffab1; _csrf-frontend=87ad85ae94dc164b9f75dc09a887968823e1b0180c2e0fe5839ba8f79f4bab47a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22RAJ4P-yWHMGmuX2omoP1c2dcf-yacaOL%22%3B%7D; advanced-manage=3165eba5d8682a8978169e4a543e5333; _tccl_visit=206e2c89-2967-4db3-abd7-0be6c516f14b',
+    'HTTP_HOST' => 'www.jijigram.com',
+    'HTTP_REFERER' => 'http://www.jijigram.com/site/request-password-reset',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+    'REDIRECT_UNIQUE_ID' => 'XAkCLpVAGdQHjufV8Rlp2AAAAoo',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XAkCLpVAGdQHjufV8Rlp2AAAAoo',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.jijigram.com',
+    'SERVER_ADDR' => '107.180.41.145',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '116.193.133.242',
+    'DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'SERVER_ADMIN' => 'webmaster@jijigram.com',
+    'SCRIPT_FILENAME' => '/home/m51jbdlbnuj4/public_html/index.php',
+    'REMOTE_PORT' => '61717',
+    'REDIRECT_URL' => '/js/owl.carousel.js',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/js/owl.carousel.js',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1544094254.431499958038330078125,
+    'REQUEST_TIME' => 1544094254,
+]
+[06-Dec-2018 11:04:15 UTC] An Error occurred while handling another error:
+yii\base\UnknownClassException: Unable to find 'frontend\controllers\SiteController' in file: /home/m51jbdlbnuj4/public_html/frontend/controllers/SiteController.php. Namespace missing? in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/BaseYii.php:296
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload('frontend\\contro...')
+#1 [internal function]: spl_autoload_call('frontend\\contro...')
+#2 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(638): class_exists('frontend\\contro...')
+#3 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(596): yii\base\Module->createControllerByID('site')
+#4 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php(522): yii\base\Module->createController('error')
+#5 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/ErrorHandler.php(97): yii\base\Module->runAction('site/error')
+#6 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/ErrorHandler.php(111): yii\web\ErrorHandler->renderException(Object(yii\web\NotFoundHttpException))
+#7 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\NotFoundHttpException))
+#8 {main}
+Previous exception:
+yii\base\InvalidRouteException: Unable to resolve the request "js/responsiveslides.min.js". in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Module.php:537
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('js/responsivesl...', Array)
+#1 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/web/Application.php:115
+Stack trace:
+#0 /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/base/Application.php(386): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 /home/m51jbdlbnuj4/public_html/index.php(17): yii\base\Application->run()
+#2 {main}
+$_SERVER = [
+    'LSPHP_ENABLE_USER_INI' => 'on',
+    'PATH' => '/usr/local/bin:/usr/bin:/bin',
+    'TEMP' => '/tmp',
+    'TMP' => '/tmp',
+    'TMPDIR' => '/tmp',
+    'PWD' => '/',
+    'HTTP_ACCEPT' => '*/*',
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.9',
+    'HTTP_CONNECTION' => 'keep-alive',
+    'CONTENT_LENGTH' => '0',
+    'HTTP_COOKIE' => '_tccl_visitor=205245f3-1175-4743-b8e6-0df1da3dbfe7; _csrf-manage=519b104db8df32ee0834acacdb92c59827408f57c10d85246a678eb0cf61c8bca%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_csrf-manage%22%3Bi%3A1%3Bs%3A32%3A%22RVD9Q3C5y8nrIJn8V1bqHyBTO8it5-i3%22%3B%7D; advanced-frontend=4c7573d17e4109d81e83ee9a6b3ffab1; _csrf-frontend=87ad85ae94dc164b9f75dc09a887968823e1b0180c2e0fe5839ba8f79f4bab47a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22RAJ4P-yWHMGmuX2omoP1c2dcf-yacaOL%22%3B%7D; advanced-manage=3165eba5d8682a8978169e4a543e5333; _tccl_visit=206e2c89-2967-4db3-abd7-0be6c516f14b',
+    'HTTP_HOST' => 'www.jijigram.com',
+    'HTTP_REFERER' => 'http://www.jijigram.com/site/request-password-reset',
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+    'REDIRECT_UNIQUE_ID' => 'XAkCL3r53ME7VzgXpky@WwAAAEk',
+    'REDIRECT_STATUS' => '200',
+    'UNIQUE_ID' => 'XAkCL3r53ME7VzgXpky@WwAAAEk',
+    'SERVER_SIGNATURE' => '',
+    'SERVER_SOFTWARE' => 'Apache',
+    'SERVER_NAME' => 'www.jijigram.com',
+    'SERVER_ADDR' => '107.180.41.145',
+    'SERVER_PORT' => '80',
+    'REMOTE_ADDR' => '116.193.133.242',
+    'DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'REQUEST_SCHEME' => 'http',
+    'CONTEXT_PREFIX' => '',
+    'CONTEXT_DOCUMENT_ROOT' => '/home/m51jbdlbnuj4/public_html',
+    'SERVER_ADMIN' => 'webmaster@jijigram.com',
+    'SCRIPT_FILENAME' => '/home/m51jbdlbnuj4/public_html/index.php',
+    'REMOTE_PORT' => '61721',
+    'REDIRECT_URL' => '/js/responsiveslides.min.js',
+    'SERVER_PROTOCOL' => 'HTTP/1.1',
+    'REQUEST_METHOD' => 'GET',
+    'QUERY_STRING' => '',
+    'REQUEST_URI' => '/js/responsiveslides.min.js',
+    'SCRIPT_NAME' => '/index.php',
+    'PHP_SELF' => '/index.php',
+    'REQUEST_TIME_FLOAT' => 1544094255.2152309417724609375,
+    'REQUEST_TIME' => 1544094255,
+]
+[10-Dec-2018 11:38:50 UTC] PHP Fatal error:  Cannot use yii\bootstrap\ActiveForm as ActiveForm because the name is already in use in /home/m51jbdlbnuj4/public_html/frontend/views/site/login.php on line 19
+[11-Dec-2018 10:59:45 UTC] PHP Notice:  Undefined offset: 1 in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/log/Target.php on line 364
+[11-Dec-2018 11:33:55 UTC] PHP Notice:  Undefined offset: 1 in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/log/Target.php on line 364
+[13-Dec-2018 07:00:28 UTC] PHP Notice:  Undefined offset: 1 in /home/m51jbdlbnuj4/public_html/vendor/yiisoft/yii2/log/Target.php on line 364
+[10-Jan-2019 17:52:36 UTC] PHP Notice:  Array to string conversion in /home/m51jbdlbnuj4/public_html/test.php on line 8
